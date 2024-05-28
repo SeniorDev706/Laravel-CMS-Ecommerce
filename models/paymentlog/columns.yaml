@@ -33,8 +33,8 @@ columns:
     reference:
         label: 'offline.mall::lang.common.reference'
         type: text
-        searchable: true
-        sortable: true
+        searchable: false
+        sortable: false
     payment_method:
         label: 'offline.mall::lang.common.payment_method'
         type: partial

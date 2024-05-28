@@ -57,7 +57,7 @@ class TotalsCalculatorTest extends PluginTestCase
         $option = ServiceOption::create(['name' => 'Test Option', 'service_id' => $service->id]);
         $option->prices()->save(new Price([
             'currency_id' => 1,
-            'price'       => 100,
+            'price'       => 150,
         ]));
 
         $product                     = $this->getProduct($price);
