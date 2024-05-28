@@ -15,6 +15,7 @@ class ProductTest extends PluginTestCase
 
         $this->assertEquals('Test', $product->fresh()->custom_fields->first()->name);
     }
+    
 
     public function test_price_accessors()
     {

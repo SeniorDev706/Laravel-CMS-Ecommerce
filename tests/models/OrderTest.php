@@ -21,6 +21,7 @@ use OFFLINE\Mall\Models\Variant;
 use OFFLINE\Mall\Tests\PluginTestCase;
 use RainLab\User\Facades\Auth;
 
+
 class OrderTest extends PluginTestCase
 {
     public function setUp()
@@ -35,7 +36,7 @@ class OrderTest extends PluginTestCase
 
     public function test_it_creates_a_new_order_from_a_cart()
     {
-        $cart                      = $this->getFullCart();
+        $cart = $this->getFullCart();
         $cart->shipping_address_id = 2;
         $cart->billing_address_id  = 1;
         $cart->save();

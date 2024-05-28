@@ -134,4 +134,5 @@ class PaymentMethodTest extends PluginTestCase
 
         return Product::first();
     }
+    
 }
