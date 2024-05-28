@@ -1,13 +1,9 @@
 <?php namespace OFFLINE\Mall\Models;
 
-use Cookie;
 use Model;
 use October\Rain\Database\Traits\Validation;
-use October\Rain\Support\Collection;
 use OFFLINE\Mall\Classes\Traits\Cart\CartItemPriceAccessors;
 use OFFLINE\Mall\Classes\Traits\HashIds;
-use RainLab\User\Facades\Auth;
-use Session;
 
 class WishlistItem extends Model
 {

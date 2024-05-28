@@ -6,8 +6,8 @@ use Illuminate\Support\Collection;
 use Model;
 use October\Rain\Database\Traits\Encryptable;
 use OFFLINE\Mall\Classes\Payments\PaymentGateway;
-use Session;
 
+/////////////////////////////////////////////////
 class PaymentGatewaySettings extends Model
 {
     use Encryptable;

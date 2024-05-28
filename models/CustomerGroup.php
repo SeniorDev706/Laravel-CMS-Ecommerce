@@ -5,6 +5,7 @@ use October\Rain\Database\Traits\Sluggable;
 use October\Rain\Database\Traits\Sortable;
 use October\Rain\Database\Traits\Validation;
 use OFFLINE\Mall\Classes\Traits\NullPrice;
+/////////////////////////////////////////////////
 
 class CustomerGroup extends Model
 {

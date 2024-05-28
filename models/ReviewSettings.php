@@ -3,7 +3,6 @@
 namespace OFFLINE\Mall\Models;
 
 use Model;
-use Session;
 
 class ReviewSettings extends Model
 {
