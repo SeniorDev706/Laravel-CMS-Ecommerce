@@ -1,6 +1,5 @@
 <?php namespace OFFLINE\Mall\Models;
 
-use Cache;
 use DB;
 use Illuminate\Support\Facades\Queue;
 use Model;
